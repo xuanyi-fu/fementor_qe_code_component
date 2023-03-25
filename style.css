@@ -7,10 +7,11 @@
   --clr-dark-blue: 218, 44%, 22%;
   --font-family-default: 'Outfit';
   --fw-regular: 400;
-  --fw-bold: 700;
+  --fw-bold: 600;
   --fs-default: 15px;
   --fs-400: 1.125rem;
   --fs-500: 1.25rem;
+  --fs-550: 1.35rem;
   --fs-600: 1.5rem;
   --fs-700: 1.75rem;
 }
@@ -53,7 +54,7 @@ body {
 }
 
 .container__qr-code {
-  margin: 1.25rem;
+  margin: 1rem;
   border-radius: 1rem;
 }
 
@@ -61,22 +62,22 @@ body {
   border-radius: inherit;
 }
 
-.container__description {  
+.container__description {
+  margin-top: 1.5rem;
   text-align: center;
-  padding-bottom: 1.5rem;
 }
 
 .container__description__content {
-  margin: 1rem;
+  margin: 1rem 2rem;
 }
 
 .container__descriptiontitle__content--title {
   font-weight: var(--fw-bold);
-  font-size: var(--fs-600);
+  font-size: var(--fs-550);
   color: hsl(var(--clr-dark-blue))
 }
 
 .container__description__content--paragraph {
-  font-size: var(--fs-400);
+  font-size: 15px;
   color: hsl(var(--clr-grayish-blue));
 }
